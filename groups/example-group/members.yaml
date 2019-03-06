@@ -1,0 +1,10 @@
+members:
+  - name: Nik
+    userId: nik@example.org
+    role: Admin
+  - name: Maxi
+    userId: maxi@example.org
+    role: Developer
+  - name: Anna
+    userId: anna@example.org
+    role: Viewer
