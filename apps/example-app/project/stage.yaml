@@ -1,4 +1,4 @@
-name: example-app-test
+name: example-app-stage
 pool: other
 requests:
   cpu: 1
