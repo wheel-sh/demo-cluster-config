@@ -69,7 +69,7 @@ objects:
       name: admin
     subjects:
       - apiGroup: rbac.authorization.k8s.io
-        kind: User
+        kind: SystemUser
         name: ${PROJECT_ADMIN_USER}
 parameters:
   - name: PROJECT_NAME
