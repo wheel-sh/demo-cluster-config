@@ -1,0 +1,4 @@
+name: example2-app
+group: example-group
+metadata:
+  custom: example-info
