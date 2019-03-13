@@ -1,0 +1,16 @@
+name: example-app-int
+pool: other
+requests:
+  cpu: 1
+  memory: 4Gi
+limits:
+  cpu: 2
+  memory: 6Gi
+templateFile: app.v1.yaml
+parameters:
+  - name: REPLICA_COUNT
+    value: 1
+  - name: IMAGE_NAME
+    value: bitnami/nginx
+  - name: IMAGE_VERSION
+    value: 1.14-ol-7
