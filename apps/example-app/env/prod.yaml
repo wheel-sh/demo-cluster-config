@@ -1,4 +1,3 @@
-name: example-app-stage
 pool: other
 requests:
   cpu: 1
@@ -9,7 +8,7 @@ limits:
 templateFile: app.v1.yaml
 parameters:
   - name: REPLICA_COUNT
-    value: 1
+    value: 2
   - name: IMAGE_NAME
     value: bitnami/nginx
   - name: IMAGE_VERSION

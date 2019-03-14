@@ -1,15 +1,14 @@
-name: example-app-prod
 pool: other
 requests:
   cpu: 1
   memory: 4Gi
 limits:
-  cpu: 2
+  cpu: 1
   memory: 6Gi
 templateFile: app.v1.yaml
 parameters:
   - name: REPLICA_COUNT
-    value: 2
+    value: 1
   - name: IMAGE_NAME
     value: bitnami/nginx
   - name: IMAGE_VERSION
